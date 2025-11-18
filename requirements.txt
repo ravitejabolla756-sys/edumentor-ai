@@ -1,0 +1,35 @@
+# Core Dependencies
+google-generativeai>=0.3.0
+langchain>=0.1.0
+langchain-google-genai>=0.0.5
+python-dotenv>=1.0.0
+
+# Agent Framework
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Tools & Utilities
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+sympy>=1.12  # For calculator tool
+
+# Memory & Storage
+sqlite3>=3.40.0  # Built-in, but listing for documentation
+json>=2.0.9  # Built-in
+
+# Observability & Logging
+langsmith>=0.0.70
+rich>=13.0.0  # For better console output
+
+# Testing & Evaluation
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Web Interface (Optional)
+streamlit>=1.28.0
+gradio>=4.0.0
+
+# Cloud Deployment (Optional)
+gunicorn>=21.2.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
